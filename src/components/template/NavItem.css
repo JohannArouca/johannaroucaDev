@@ -1,0 +1,25 @@
+a.a {
+    width: 225px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    padding: 15px;
+    font-weight: 300;
+    padding: 15px;
+    transition: all .5s ease;
+}
+
+
+a.a.active, a.a:hover {
+    background-color: var(--blue2); 
+    border-left: 5px solid white;
+}
+
+@media(max-width: 768px) {
+    a.a {
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+    }
+}

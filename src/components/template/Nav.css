@@ -1,0 +1,19 @@
+aside.menu-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+    padding: 20px 0px;
+}
+
+@media(max-width: 768px) {
+    aside.menu-area {
+        align-items: flex-end;
+    }
+    .menu {
+        height: 10px;
+    }
+
+}
+

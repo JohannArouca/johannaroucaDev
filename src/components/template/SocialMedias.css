@@ -1,0 +1,12 @@
+a.icon {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    color: #FFF;
+    padding: 5px 10px;
+    transition: all .5s ease;
+}
+
+a.icon:hover {
+    color: var(--blue2);
+}
