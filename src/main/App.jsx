@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import Footer from '../components/template/Footer'
 import SideBar from '../components/template/SideBar'
-import MenuButton from '../components/template/MenuButton'
+import Home from '../components/template/Home'
 
 export default props =>
     <BrowserRouter>
@@ -13,7 +13,7 @@ export default props =>
            {/*  <Logo/> */}
             <SideBar/>
             {/* <MenuButton/> */}
-            <h1>TESTE</h1>
-            <Footer/>
+            <Home/>
+            {/* <Footer/> */}
         </div>
     </BrowserRouter>

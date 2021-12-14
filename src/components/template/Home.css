@@ -1,0 +1,49 @@
+.home {
+    height: 100vh;
+    width: 100vw - var(--aside-width);
+    background:
+    linear-gradient(
+      rgba(40,54,85,.9),rgba(40,54,85,.9)
+    ),
+    url(../../assets/imgs/background.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home h1 {
+    color: var(--blue1);
+    font-size: 5em;
+}
+
+.home h2 {
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 50;
+    font-size: 1.6em;
+    text-shadow: var(--shadow);
+}
+
+.arrow {
+    padding-top: 15%;
+}
+
+.arrow-text {
+    color: white;
+    font-size: 1em;
+}
+
+.arrow-icon {
+    font-size: 1.4em;
+    color: white;
+    opacity: 1;
+    animation: anima 1500ms ease infinite;
+}
+@keyframes anima {
+    to {
+        opacity: 0.1;
+        transform: scale(0.85) translateY(20px);
+    }
+}
