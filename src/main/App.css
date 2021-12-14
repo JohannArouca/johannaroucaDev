@@ -34,6 +34,7 @@
         "menu content"
         "menu footer";
     height: 100vh;
+    width: 100vw;
     background-color: #F5F5F5;
 }
 
@@ -70,8 +71,8 @@ footer.footer {
             "footer";
     }
 }
-/* 
-@media(max-width: 576px) {
+  
+/* @media(max-width: 576px) {
     .app {
         grid-template-rows:
             var(--logo-height)
@@ -85,4 +86,4 @@ footer.footer {
             "content"
             "footer";
     }
-} */
+}  */

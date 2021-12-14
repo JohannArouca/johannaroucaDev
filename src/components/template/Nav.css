@@ -7,7 +7,7 @@ aside.menu-area {
     padding: 20px 0px;
 }
 
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
     aside.menu-area {
         align-items: flex-end;
     }
@@ -15,5 +15,5 @@ aside.menu-area {
         height: 10px;
     }
 
-}
+} */
 
