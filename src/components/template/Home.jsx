@@ -3,7 +3,7 @@ import React from 'react'
 
 export default props =>
     <React.Fragment>
-        <div className="home">
+        <div id="home" className="home">
             <h1>Johann Arouca</h1>
             <h2>ENGENHEIRO DA COMPUTAÇÃO | DESENVOLVEDOR DE SOFTWARE</h2>
             <div className="arrow">
