@@ -7,6 +7,7 @@ import SideBar from '../components/template/SideBar'
 import Home from '../components/template/Home'
 import About from '../components/template/About'
 import Portfolio from '../components/template/Portfolio'
+import Experiences from '../components/template/Experiences'
 
 export default props =>
     <BrowserRouter>
@@ -17,5 +18,7 @@ export default props =>
             <About/>
             <div/>
             <Portfolio/>
+            <div/>
+            <Experiences/>
         </div>
     </BrowserRouter>

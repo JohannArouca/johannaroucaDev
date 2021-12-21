@@ -9,7 +9,7 @@ export default props =>
             <NavItem title="Sobre" link="#about"></NavItem>
             <NavItem title="Portfólio" link="#portfolio"></NavItem>
             <NavItem title="Formações" link="/"></NavItem>
-            <NavItem title="Experiências" link="/"></NavItem>
+            <NavItem title="Experiências" link="#experiences"></NavItem>
             <NavItem title="Contato" link="/"></NavItem>
         </nav>
     </aside>

@@ -21,3 +21,18 @@
 .about p {
     color: var(--blue4);
 }
+
+.about h3 {
+    color: var(--blue3);
+    font-size: 1.8em;
+    text-shadow: var(--shadow);
+    margin-bottom: 5%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.technologies svg {
+    color: var(--blue4);
+    height: 45px;
+    padding: 0px 20px;
+}
