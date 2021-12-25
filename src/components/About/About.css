@@ -1,5 +1,6 @@
 .about {
-    height: 100vh;
+    height: max-content;
+    min-height: 100vh;
     width: 100vw - var(--aside-width);
     background-color: var(--blue1);
     background-size: cover;
@@ -14,12 +15,14 @@
     color: var(--blue3);
     font-size: 3em;
     text-shadow: var(--shadow);
-    margin-bottom: 8%;
+    margin-bottom: 0px;
     text-align: left;
 }
 
 .about p {
     color: var(--blue4);
+    font-size: 1.5em;
+    text-align: justify;
 }
 
 .about h3 {
@@ -29,6 +32,11 @@
     margin-bottom: 5%;
     text-align: left;
     padding-left: 10px;
+}
+
+.technologies img {
+    height: 60px;
+    padding: 0px 20px;
 }
 
 .technologies svg {

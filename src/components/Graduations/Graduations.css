@@ -1,0 +1,20 @@
+.graduations {
+    height: max-content;
+    min-height: 100vh;
+    width: 100vw - var(--aside-width);
+    background-color: var(--blue1);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.graduations h2 {
+    color: var(--blue3);
+    font-size: 3em;
+    text-shadow: var(--shadow);
+    margin-bottom: 0px;
+    text-align: left;
+}

@@ -1,0 +1,59 @@
+.portfolio {
+    height: max-content;
+    min-height: 100vh;
+    width: 100vw - var(--aside-width);
+    max-width: 100vw - var(--aside-width);
+    background-color: var(--blue3);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.portfolio h2 {
+    color: var(--blue1);
+    font-size: 3em;
+    text-shadow: var(--shadow);
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.portfolio .carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    width: 700px;
+}
+
+.portfolio .carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.portfolio .carousel .item {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    flex: none;
+}
+
+.portfolio .buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio .buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin: 0px 10px;
+}
+
+.portfolio .buttons button:hover {
+    color: var(--blue2);
+}

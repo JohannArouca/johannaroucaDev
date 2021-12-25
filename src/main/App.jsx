@@ -3,11 +3,12 @@ import './App.css'
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 
-import SideBar from '../components/template/SideBar'
-import Home from '../components/template/Home'
-import About from '../components/template/About'
-import Portfolio from '../components/template/Portfolio'
-import Experiences from '../components/template/Experiences'
+import SideBar from '../components/SideBar/SideBar'
+import Home from '../components/Home/Home'
+import About from '../components/About/About'
+import Portfolio from '../components/Portfolio/Portfolio'
+import Experiences from '../components/Experiences/Experiences'
+import Graduations from '../components/Graduations/Graduations'
 
 export default props =>
     <BrowserRouter>
@@ -18,6 +19,8 @@ export default props =>
             <About/>
             <div/>
             <Portfolio/>
+            <div/>
+            <Graduations/>
             <div/>
             <Experiences/>
         </div>
