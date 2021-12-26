@@ -2,7 +2,6 @@
     height: max-content;
     min-height: 100vh;
     width: 100vw - var(--aside-width);
-    max-width: 100vw - var(--aside-width);
     background-color: var(--blue3);
     background-size: cover;
     text-align: center;
@@ -10,6 +9,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 8%;
+    overflow-x: hidden;
 }
 
 .portfolio h2 {
@@ -21,10 +21,10 @@
 }
 
 .portfolio .carousel {
+    padding-top: 20px;
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    width: 700px;
 }
 
 .portfolio .carousel::-webkit-scrollbar {
@@ -34,11 +34,100 @@
 .portfolio .carousel .item {
     background-color: white;
     margin: 10px;
-    padding: 10px;
-    width: 280px;
+    padding: 20px 0px;
+    width: 380px;
     border-radius: 10px;
     box-shadow: var(--shadow);
     flex: none;
+
+    /* Display em grid */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 
+        70px
+        1fr 
+        70px;
+    grid-template-areas: 
+        "title"
+        "paragraph"
+        "footer";
+}
+
+
+.portfolio .carousel .item .title {
+    grid-area: title;
+}
+
+.portfolio .carousel .item .paragraph {
+    grid-area: paragraph;
+}
+
+.portfolio .carousel .item .footer {
+    grid-area: footer;
+}
+
+.portfolio .carousel .item .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    text-align: center;
+    justify-content: space-around;
+}
+
+.portfolio .carousel .item .title img {
+    height: 70px;
+}
+
+.portfolio .carousel .item .paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    text-align: center;
+}
+
+.portfolio .carousel .item .paragraph p {
+    text-align: justify;
+    padding: 0px 25px;
+    margin-bottom: 30px;
+}
+
+.portfolio .carousel .item .technology {
+    background-color: var(--blue2);
+    text-align: right;
+    width: 90px;
+    padding: 4px 9px;
+    margin-bottom: 15px;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    right: 0;
+}
+
+.portfolio .carousel .item .technology img {
+    width: 45px;
+}
+
+.portfolio .carousel .item .footer {
+    display: flex;
+    flex-direction: row; 
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio .carousel .item .footer a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: var(--blue2);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    height: 40px;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.portfolio .carousel .item .footer a:hover {
+    background-color: var(--blue3);
 }
 
 .portfolio .buttons {

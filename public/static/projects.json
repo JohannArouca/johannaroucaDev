@@ -1,50 +1,42 @@
 [
     {
         "id": "1",
-        "name": "Projeto 1",
-        "text": "Parágrafo 1",
-        "image": "..."
+        "name": "Monitora Formiga",
+        "image": "https://play-lh.googleusercontent.com/mqY081XcyviVDjoDGoWDlUmFN7fiUxiX8oJBZnmePPRHsCBrnTzKUxDmDrqT08h0igI=s180-rw",
+        "text": "App, fruto do meu Trabalho de Conclusão de Curso, feito para a Prefeitura Municipal de Formiga. Utilizado pela população formiguense e pela Gestão Pública na luta pela saúde do usuário cidadão.",
+        "technology": "https://logospng.org/download/react/logo-react-256.png",
+        "link": "https://play.google.com/store/apps/details?id=com.monitoraFormiga"
     },
     {
         "id": "2",
-        "name": "Projeto 2",
-        "text": "Parágrafo 2",
-        "image": "..."
+        "name": "johannarouca.dev",
+        "image": "http://localhost:3000/imgs/johannarouca.dev.png",
+        "text": "Meu site/portfólio criado para mostrar meus trabalhos, experiências e projetos.",
+        "technology": "https://logospng.org/download/react/logo-react-256.png",
+        "link": "https://github.com/JohannArouca/johannaroucaDev"
     },
     {
         "id": "3",
-        "name": "Projeto 3",
-        "text": "Parágrafo 3",
-        "image": "..."
+        "name": "Instituto Wagner Quirino",
+        "image": "http://www.institutowagnerquirino.com.br/wp-content/uploads/2021/08/fav-icon.png",
+        "text": "Site criado durante meu trabalho de Desenvolvedor Júnior na Logus Soluções.",
+        "technology": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
+        "link": "http://www.institutowagnerquirino.com.br/"
     },
     {
         "id": "4",
-        "name": "Projeto 4",
-        "text": "Parágrafo 4",
-        "image": "..."
+        "name": "Flappy Bird",
+        "image": "https://macmagazine.com.br/wp-content/uploads/2014/02/08-flappy.png",
+        "text": "Clone do jogo Flappy Bird desenvolvido durante o curso de Web Moderno da Cod3r para desenvolver conceitos de HTML, CSS e JS.",
+        "technology": "https://logospng.org/download/javascript/logo-javascript-256.png",
+        "link": "https://tippmed.com.br/"
     },
     {
         "id": "5",
-        "name": "Projeto 5",
-        "text": "Parágrafo 5",
-        "image": "..."
-    },
-    {
-        "id": "6",
-        "name": "Projeto 6",
-        "text": "Parágrafo 6",
-        "image": "..."
-    },
-    {
-        "id": "7",
-        "name": "Projeto 7",
-        "text": "Parágrafo 7",
-        "image": "..."
-    },
-    {
-        "id": "8",
-        "name": "Projeto 8",
-        "text": "Parágrafo 8",
-        "image": "..."
+        "name": "TippMed",
+        "image": "...",
+        "text": "Site criado durante meu trabalho de Desenvolvedor Júnior na Logus Soluções.",
+        "technology": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
+        "link": "https://tippmed.com.br/"
     }
 ]
