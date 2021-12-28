@@ -9,6 +9,7 @@ import About from '../components/About/About'
 import Portfolio from '../components/Portfolio/Portfolio'
 import Experiences from '../components/Experiences/Experiences'
 import Graduations from '../components/Graduations/Graduations'
+import Contact from '../components/Contact/Contact'
 
 export default props =>
     <BrowserRouter>
@@ -23,5 +24,7 @@ export default props =>
             <Graduations/>
             <div/>
             <Experiences/>
+            <div/>
+            <Contact/>
         </div>
     </BrowserRouter>

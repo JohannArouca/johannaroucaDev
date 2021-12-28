@@ -10,6 +10,6 @@ export default props =>
             <NavItem title="Portfólio" link="#portfolio"></NavItem>
             <NavItem title="Formações" link="#graduations"></NavItem>
             <NavItem title="Experiências" link="#experiences"></NavItem>
-            <NavItem title="Contato" link="/"></NavItem>
+            <NavItem title="Contato" link="#contact"></NavItem>
         </nav>
     </aside>

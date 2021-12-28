@@ -74,6 +74,11 @@
     justify-content: space-around;
 }
 
+.portfolio .carousel .item .title h3 {
+    font-size: 1.3em;
+    color: var(--blue3);
+}
+
 .portfolio .carousel .item .title img {
     height: 70px;
 }
@@ -89,6 +94,8 @@
     text-align: justify;
     padding: 0px 25px;
     margin-bottom: 30px;
+    font-size: 1.2em;
+    color: var(--blue4);
 }
 
 .portfolio .carousel .item .technology {
