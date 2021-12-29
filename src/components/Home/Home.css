@@ -1,7 +1,7 @@
 .home {
     height: max-content;
     min-height: 100vh;
-    width: 100vw - var(--aside-width);
+    width: calc(100vw - var(--aside-width));
     background:
     linear-gradient(
       rgba(40,54,85,.9),rgba(40,54,85,.9)
