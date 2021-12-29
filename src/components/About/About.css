@@ -9,6 +9,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 8%;
+    overflow-x: hidden;
 }
 
 .about h2 {
@@ -19,10 +20,42 @@
     text-align: left;
 }
 
-.about p {
+.about .p1 {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.about .p1 img {
+    width: 12em;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.about .p1 p {
     color: var(--blue4);
     font-size: 1.5em;
     text-align: justify;
+}
+
+.about .btn {
+    align-items: center;
+}
+
+.about .btn a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--blue3);
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+.about .btn a:hover {
+    background-color: var(--blue2);
+}
+
+.about .btn a i {
+    padding-right: 10px;
 }
 
 .about h3 {
@@ -43,4 +76,10 @@
     color: var(--blue4);
     height: 45px;
     padding: 0px 20px;
+}
+
+@media(max-width: 768px) {
+    .about .p1 {
+        flex-direction: column;
+    }
 }

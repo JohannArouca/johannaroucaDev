@@ -153,3 +153,9 @@
 .portfolio .buttons button:hover {
     color: var(--blue2);
 }
+
+@media(max-width: 768px) {
+    .portfolio .carousel .item {
+        width: 93%;
+    }
+}

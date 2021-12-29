@@ -70,14 +70,10 @@ footer.footer {
 @media(max-width: 768px) {
     .app {
         grid-template-rows: 
-            var(--menu-top-height)
-            1fr
-            var(--footer-height);
+            1fr;
         grid-template-columns: 1fr;
         grid-template-areas:
-            "menu"
             "content"
-            "footer";
     }
 }
   
