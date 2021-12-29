@@ -154,8 +154,16 @@
     color: var(--blue2);
 }
 
+.portfolio p {
+    color: white;
+    display: none;
+}
+
 @media(max-width: 768px) {
     .portfolio .carousel .item {
         width: 93%;
+    }
+    .portfolio p {
+        display: inherit;
     }
 }

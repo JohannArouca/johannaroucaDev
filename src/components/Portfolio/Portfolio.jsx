@@ -24,7 +24,7 @@ export default function Portfolio() {
     }
 
     if (!data || !data.length) return null
-
+    
     return (
         <div id="portfolio" className="portfolio">
             <h2>{'<Portfólio>'}</h2>
@@ -55,6 +55,7 @@ export default function Portfolio() {
                     )
                 })}
             </div>
+            <p>Arraste para o lado para ver mais projetos</p>
             <div className='buttons'>
                 <button onClick={handleLeftClick}>
                     <i className='fa fa-angle-left fa-5x' alt="Scroll Left" />
