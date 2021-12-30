@@ -103,6 +103,10 @@
 }
 
 @media(max-width: 768px) {
+    .contact {
+        width: 100vw;
+    }
+
     .contact .content {
         display: flex;
         flex-direction: column;

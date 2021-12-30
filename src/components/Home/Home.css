@@ -50,3 +50,10 @@
         transform: scale(0.85) translateY(20px);
     }
 }
+
+@media(max-width: 768px) {
+    .home {
+      width: 100vw;
+      background-position: center;
+    }
+}

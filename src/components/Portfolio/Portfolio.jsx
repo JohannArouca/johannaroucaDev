@@ -6,7 +6,8 @@ export default function Portfolio() {
     const carousel = useRef(null)
 
     useEffect(() => {
-        fetch('http://localhost:3000/static/projects.json')
+        /* fetch('http://localhost:3000/static/projects.json') */
+        fetch('http://johannarouca.com.br/static/projects.json')
             .then((response) => response.json())
             .then(setData)
     }, [])

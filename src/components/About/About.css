@@ -79,6 +79,10 @@
 }
 
 @media(max-width: 768px) {
+    .about {
+        width: 100vw;
+    }
+
     .about .p1 {
         flex-direction: column;
     }

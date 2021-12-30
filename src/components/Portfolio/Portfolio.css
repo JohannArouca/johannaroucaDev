@@ -160,6 +160,9 @@
 }
 
 @media(max-width: 768px) {
+    .portfolio {
+        width: 100vw;
+    }
     .portfolio .carousel .item {
         width: 93%;
     }

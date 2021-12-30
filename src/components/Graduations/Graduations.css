@@ -86,6 +86,10 @@
 }
 
 @media(max-width: 768px) {
+  .graduations {
+    width: 100vw;
+  }
+
   .graduations .rb-container ul.rb li {
     margin-left: 30px;
   }
