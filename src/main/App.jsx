@@ -11,20 +11,23 @@ import Experiences from '../components/Experiences/Experiences'
 import Graduations from '../components/Graduations/Graduations'
 import Contact from '../components/Contact/Contact'
 
-export default props =>
-    <BrowserRouter>
-        <div className="app">
-            <SideBar/>
-            <Home/>
-            <div/>
-            <About/>
-            <div/>
-            <Portfolio/>
-            <div/>
-            <Graduations/>
-            <div/>
-            <Experiences/>
-            <div/>
-            <Contact/>
-        </div>
-    </BrowserRouter>
+export default function App() {
+    return (
+        <BrowserRouter>
+            <div className="app">
+                <SideBar />
+                <Home />
+                <div />
+                <About />
+                <div />
+                {/* <Portfolio />
+                <div /> */}
+                <Graduations />
+                <div />
+                <Experiences />
+                <div />
+                <Contact />
+            </div>
+        </BrowserRouter>
+    )
+}

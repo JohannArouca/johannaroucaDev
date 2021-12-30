@@ -2,7 +2,8 @@ import './Nav.css'
 import React from 'react'
 import NavItem from './NavItem'
 
-export default props =>
+export default function Nav() {
+    return (
     <aside className="menu-area">
         <nav className="menu">
             <NavItem title="Início" link="#home"></NavItem>
@@ -13,3 +14,5 @@ export default props =>
             <NavItem title="Contato" link="#contact"></NavItem>
         </nav>
     </aside>
+    )
+}

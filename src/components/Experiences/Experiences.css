@@ -1,7 +1,7 @@
 .experiences {
     height: max-content;
     min-height: 100vh;
-    width: calc(100vw - var(--aside-width));
+    width: calc(100vw - var(--aside-width) - 17px);
     background-color: var(--blue3);
     background-size: cover;
     text-align: center;

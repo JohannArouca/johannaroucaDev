@@ -37,7 +37,7 @@ export default function Portfolio() {
                     return (
                         <div className='item' key={id}>
                             <div className='title'>
-                                <img src={image}></img>
+                                <img src={image} alt="projeto-logo"></img>
                                 <h3>{name}</h3>
                             </div>
                             <div className='paragraph'>
@@ -45,9 +45,9 @@ export default function Portfolio() {
                             </div>
                             <div className='footer'>
                                 <div className='technology'>
-                                    <img src={technology} alt="" />
+                                    <img src={technology} alt="tecnologia" />
                                 </div>
-                                <a href={link} target="_blank">
+                                <a href={link} target={"_blank"} rel="noreferrer">
                                     Ver aplicação
                                 </a>
                             </div>
@@ -67,33 +67,4 @@ export default function Portfolio() {
         </div>
 
     )
-
-    /*
-
-    return (
-        <div id="portfolio" className="portfolio">
-            <h2>{'<Portfólio>'}</h2>
-            <div className='carousel' ref={carousel}>
-
-                {data.map((item) => {
-                    const {id, name, text, image} = item
-
-                    return (
-                        <div className='item' key={id}>
-                            <h3>{name}</h3>
-                            <p>{text}</p>
-                        </div>
-                    )
-                })}
-            </div>
-            <div className='buttons'>
-                <button onClick={handleLeftClick}>
-                    <i className='fa fa-angle-left fa-5x' alt="Scroll Left"/>
-                </button>
-                <button onClick={handleRightClick}>
-                    <i className='fa fa-angle-right fa-5x' alt="Scroll Right"/>
-                </button>
-            </div>
-        </div>
-    ) */
 }
