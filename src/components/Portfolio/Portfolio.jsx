@@ -7,8 +7,7 @@ export default function Portfolio() {
 
     useEffect(() => {
         /* fetch('http://localhost:3000/static/projects.json') */
-        /* fetch('http://johannarouca.com.br/static/projects.json') */
-        fetch('http://johannarouca-dev.vercel.app/static/projects.json')
+        fetch('http://johannarouca.com.br/static/projects.json')
             .then((response) => response.json())
             .then(setData)
     }, [])
