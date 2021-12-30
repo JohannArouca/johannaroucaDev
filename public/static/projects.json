@@ -10,7 +10,7 @@
     {
         "id": "2",
         "name": "johannarouca.com.br",
-        "image": "http://johannarouca.com.br/static/media/logo.b39e6c0c.png",
+        "image": "http://johannarouca-dev.vercel.app/static/media/logo.b39e6c0c.png",
         "text": "Meu site/portfólio criado para mostrar meus trabalhos, experiências e projetos e desenvolver conceito de HTML, CSS, JavaScript e React.",
         "technology": "https://logospng.org/download/react/logo-react-256.png",
         "link": "https://github.com/JohannArouca/johannaroucaDev"
@@ -42,7 +42,7 @@
     {
         "id": "6",
         "name": "TippMed",
-        "image": "http://johannarouca.com.br/imgs/tippmed.jpeg",
+        "image": "http://johannarouca-dev.vercel.app/imgs/tippmed.jpeg",
         "text": "Site criado durante meu trabalho de Desenvolvedor Júnior na Logus Soluções.",
         "technology": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png",
         "link": "https://tippmed.com.br/"
