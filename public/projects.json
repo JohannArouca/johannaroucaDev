@@ -3,7 +3,7 @@
         "id": "1",
         "name": "Monitora Formiga",
         "image": "https://play-lh.googleusercontent.com/mqY081XcyviVDjoDGoWDlUmFN7fiUxiX8oJBZnmePPRHsCBrnTzKUxDmDrqT08h0igI=s180-rw",
-        "text": "App, fruto do meu Trabalho de Conclusão de Curso, feito para a Prefeitura Municipal de Formiga. Utilizado pela população formiguense e pela Gestão Pública na luta pela saúde do usuário cidadão.",
+        "text": "App, fruto do meu Trabalho de Conclusão de Curso, desenvolvido para a Prefeitura Municipal de Formiga. O app foi utilizado pela população formiguense e pela Gestão Pública na luta pela saúde do usuário cidadão.",
         "technology": "https://logospng.org/download/react/logo-react-256.png",
         "link": "https://play.google.com/store/apps/details?id=com.monitoraFormiga"
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "name": "johannarouca.com.br",
         "image": "http://johannarouca-dev.vercel.app/static/media/logo.b39e6c0c.png",
-        "text": "Meu site/portfólio criado para mostrar meus trabalhos, experiências e projetos e desenvolver conceito de HTML, CSS, JavaScript e React.",
+        "text": "Meu site/portfólio criado para divulgar meus trabalhos, experiências e projetos, além de desenvolver conceitos de HTML, CSS, JavaScript e React.",
         "technology": "https://logospng.org/download/react/logo-react-256.png",
         "link": "https://github.com/JohannArouca/johannaroucaDev"
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "name": "CRUD - Next.js",
         "image": "https://lh4.googleusercontent.com/qCh89q67DhdumcowjTDkVZ5LeRBvkYXyiWlt6c8iXu_WfGGV1QLlRBiYINhNIh4ZthyyEFnbe1llVJ6e6TfTA28vXqTNRm0vQPFlxEKfy5gIrfc0okDBRE6DLI4AeZaQ0Jovvdx_",
-        "text": "CRUD criado utilizando o Next e o React para exercitar conceitos. Projeto desenvolvido durante o curso de Web Moderno da Cod3r.",
+        "text": "CRUD criado utilizando o NextJS e o React para exercitar conceitos. Projeto desenvolvido durante o curso de Web Moderno da Cod3r.",
         "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
         "link": "https://github.com/JohannArouca/nextCrud"
     },
@@ -59,7 +59,7 @@
         "id": "8",
         "name": "Calculadora iOS",
         "image": "https://play-lh.googleusercontent.com/L6tKcoaxIKgge_Cyocd7KZu9DvmaQx92J7HAoxm2TtcUw09cY7I4_gXzuZTluQJFEss",
-        "text": "Meu primeiro projeto em React Native. Clone da calculadora do iPhone criado durante o curso de React Native da Cod3r para aprender conceitos.",
+        "text": "Meu primeiro projeto em React Native. Clone da calculadora do iPhone criado durante o curso de React Native da Cod3r, com o intuito de aprender e exercitar conceitos.",
         "technology": "https://logospng.org/download/react/logo-react-256.png",
         "link": "https://github.com/JohannArouca/Calculadora"
     }
