@@ -37,8 +37,4 @@
         padding: 10px;
         z-index: 10;
     }
-
-    .menu-icon:hover {
-        background-color: var(--blue2);
-    }
 }

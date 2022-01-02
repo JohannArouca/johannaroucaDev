@@ -83,7 +83,15 @@
         width: 100vw;
     }
 
+    .about h2 {
+        font-size: 2.7em;
+    }
+
     .about .p1 {
         flex-direction: column;
+    }
+
+    .technologies img {
+        margin: 5px 0px;
     }
 }

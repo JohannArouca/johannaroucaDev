@@ -54,6 +54,11 @@
 @media(max-width: 768px) {
     .home {
       width: 100vw;
-      background-position: center;
+      background-size: cover;
+      background:
+      linear-gradient(
+        rgba(40,54,85,.9),rgba(40,54,85,.9)
+      ),
+      url(../../assets/imgs/background-mobile.jpg) no-repeat;
     }
 }

@@ -29,7 +29,12 @@ export default function Contact() {
                         <input type="submit" value="Enviar" />
                     </form>
                 </div>
-                <div className='icons'>
+                <div className='icons-mobile'>
+                    <a className="icon fa fa-whatsapp fa-3x" href="https://api.whatsapp.com/send?phone=5537999370570" target="_blank" rel="noreferrer"/>
+                    <a className="icon fa fa-envelope-o fa-3x" href="mailto:aroucajohann@gmail.com" target="_blank" rel="noreferrer"/>
+                    <a className="icon fa fa-instagram fa-3x" href="https://www.instagram.com/johannarouca/" target="_blank" rel="noreferrer"/>
+                </div>
+                <div className='icons-desktop'>
                     <div className='item'>
                         <i className="icon fa fa-whatsapp fa-3x"></i>
                         <p>(37) 99937-0570</p>

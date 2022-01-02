@@ -55,8 +55,12 @@ export default function Portfolio() {
                     )
                 })}
             </div>
-            <p className='p-text'>Arraste para o lado para ver mais projetos</p>
-            <div className='buttons'>
+            <div className='arrow-mobile'>
+                <i className="fa fa-angle-double-left arrow-icon"></i>
+                <p className='p-text'>Arraste para o lado para ver mais projetos</p>
+                <i className="fa fa-angle-double-right arrow-icon"></i>
+            </div>
+            <div className='arrow-desktop'>
                 <button onClick={handleLeftClick}>
                     <i className='fa fa-angle-left fa-5x' alt="Scroll Left" />
                 </button>

@@ -137,12 +137,16 @@
     background-color: var(--blue3);
 }
 
-.portfolio .buttons {
+.portfolio .arrow-mobile {
+    display: none;
+}
+
+.portfolio .arrow-desktop {
     width: 100%;
     text-align: center;
 }
 
-.portfolio .buttons button {
+.portfolio .arrow-desktop button {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -150,7 +154,7 @@
     margin: 0px 10px;
 }
 
-.portfolio .buttons button:hover {
+.portfolio .arrow-desktop button:hover {
     color: var(--blue2);
 }
 
@@ -163,10 +167,56 @@
     .portfolio {
         width: 100vw;
     }
+
+    .portfolio h2 {
+        font-size: 2.7em;
+    }
+
     .portfolio .carousel .item {
         width: 93%;
     }
     .portfolio .p-text {
         display: inherit;
+    }
+
+    .portfolio .arrow-mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .portfolio .arrow-mobile i {
+        color: white;
+        margin: 0px 25px;
+    }
+
+    .portfolio .arrow-mobile .fa-angle-double-left {
+        animation: go-left 1s infinite alternate;
+    }
+    
+    @keyframes go-left {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+          transform: translateX(-10px);
+        }
+    }
+
+    .portfolio .arrow-mobile .fa-angle-double-right {
+        animation: go-right 1s infinite alternate;
+    }
+    
+    @keyframes go-right {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+          transform: translateX(10px);
+        }
+    }
+
+    .portfolio .arrow-desktop {
+        display: none;
     }
 }
