@@ -24,7 +24,7 @@ export default function Experiences() {
                                 Fev/20 - Dez/20
                             </div>
                             <div className="item-text">
-                                Experiência em ensino de programação e robótica para vários de grupos de crianças
+                                Experiência em ensino de programação e robótica para vários grupos de crianças
                             </div>
                         </li>
                         <li class="rb-item" ng-repeat="itembx">
