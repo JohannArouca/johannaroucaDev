@@ -28,7 +28,7 @@ export default function Experiences() {
                             </div>
                         </li>
                         <li class="rb-item" ng-repeat="itembx">
-                            <div class="item-title"> Estagiário de TI | DonnaFlor</div>
+                            <div class="item-title"> Técnico de informática | DonnaFlor</div>
                             <div class="timestamp">
                                 Ago/19 - Fev/20
                             </div>
