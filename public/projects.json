@@ -17,6 +17,14 @@
     },
     {
         "id": "3",
+        "name": "Aluracord",
+        "image": "https://www.alura.com.br/assets/img/imersoes/general/og-imersao-alura.1636535198.png",
+        "text": "Chat inspirado no Discord. Projeto desenvolvido durante a Imersão React da Alura e incrementado posteriormente",
+        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
+        "link": "https://aluracord-pi-one.vercel.app/"
+    },
+    {
+        "id": "4",
         "name": "Instituto Wagner Quirino",
         "image": "http://www.institutowagnerquirino.com.br/wp-content/uploads/2021/08/fav-icon.png",
         "text": "Site criado durante meu trabalho de Desenvolvedor Júnior na Logus Soluções.",
@@ -24,7 +32,7 @@
         "link": "http://www.institutowagnerquirino.com.br/"
     },
     {
-        "id": "4",
+        "id": "5",
         "name": "CRUD - Next.js",
         "image": "https://lh4.googleusercontent.com/qCh89q67DhdumcowjTDkVZ5LeRBvkYXyiWlt6c8iXu_WfGGV1QLlRBiYINhNIh4ZthyyEFnbe1llVJ6e6TfTA28vXqTNRm0vQPFlxEKfy5gIrfc0okDBRE6DLI4AeZaQ0Jovvdx_",
         "text": "CRUD criado utilizando o NextJS e o React para exercitar conceitos. Projeto desenvolvido durante o curso de Web Moderno da Cod3r.",
@@ -32,7 +40,7 @@
         "link": "https://github.com/JohannArouca/nextCrud"
     },
     {
-        "id": "5",
+        "id": "6",
         "name": "Flappy Bird",
         "image": "https://macmagazine.com.br/wp-content/uploads/2014/02/08-flappy.png",
         "text": "Clone do jogo Flappy Bird desenvolvido durante o curso de Web Moderno da Cod3r para desenvolver conceitos de HTML, CSS e JS.",
@@ -40,7 +48,7 @@
         "link": "https://github.com/JohannArouca/flappyBird"
     },
     {
-        "id": "6",
+        "id": "7",
         "name": "TippMed",
         "image": "http://johannarouca-dev.vercel.app/imgs/tippmed.jpeg",
         "text": "Site criado durante meu trabalho de Desenvolvedor Júnior na Logus Soluções.",
@@ -48,7 +56,7 @@
         "link": "https://tippmed.com.br/"
     },
     {
-        "id": "7",
+        "id": "8",
         "name": "Campo minado",
         "image": "https://play-lh.googleusercontent.com/p11kV_h4I96S7LT-c_oZAs278HzGISfib30JvMVFzN7FzUCJfU9JnX8dzC5VMUy1cs8",
         "text": "O antigo Campo Minado do Windows desenvolvido em React Native. Projeto criado no curso React Native: Desenvolva APPs Nativas para Android e iOS da Cod3r.",
@@ -56,7 +64,7 @@
         "link": "https://github.com/JohannArouca/CampoMinado"
     },
     {
-        "id": "8",
+        "id": "9",
         "name": "Calculadora iOS",
         "image": "https://play-lh.googleusercontent.com/L6tKcoaxIKgge_Cyocd7KZu9DvmaQx92J7HAoxm2TtcUw09cY7I4_gXzuZTluQJFEss",
         "text": "Meu primeiro projeto em React Native. Clone da calculadora do iPhone criado durante o curso de React Native da Cod3r, com o intuito de aprender e exercitar conceitos.",
