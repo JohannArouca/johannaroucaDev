@@ -33,11 +33,11 @@
     },
     {
         "id": "5",
-        "name": "CRUD - Next.js",
-        "image": "https://lh4.googleusercontent.com/qCh89q67DhdumcowjTDkVZ5LeRBvkYXyiWlt6c8iXu_WfGGV1QLlRBiYINhNIh4ZthyyEFnbe1llVJ6e6TfTA28vXqTNRm0vQPFlxEKfy5gIrfc0okDBRE6DLI4AeZaQ0Jovvdx_",
-        "text": "CRUD criado utilizando o NextJS e o React para exercitar conceitos. Projeto desenvolvido durante o curso de Web Moderno da Cod3r.",
-        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
-        "link": "https://github.com/JohannArouca/nextCrud"
+        "name": "CRUD - Angular",
+        "image": "https://camo.githubusercontent.com/0d601c68ab4ee554491ffe2aa994f48e47ff6447f295e1a359a07fb9fb070a64/68747470733a2f2f332e62702e626c6f6773706f742e636f6d2f2d6a7779624b6a314d6e49552f57423676395448714b7a492f414141414141414149586b2f475030673553313643656f31505032353254325259704d674156684a6866544541434c63422f73313630302f435255442e706e67",
+        "text": "CRUD criado com Angular para aprender os conceitos do framework. Projeto desenvolvido durante o curso de Web Moderno da Cod3r.",
+        "technology": "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg",
+        "link": "https://github.com/JohannArouca/AngularCRUD-front"
     },
     {
         "id": "6",
@@ -49,6 +49,14 @@
     },
     {
         "id": "7",
+        "name": "CRUD - Next.js",
+        "image": "https://camo.githubusercontent.com/0d601c68ab4ee554491ffe2aa994f48e47ff6447f295e1a359a07fb9fb070a64/68747470733a2f2f332e62702e626c6f6773706f742e636f6d2f2d6a7779624b6a314d6e49552f57423676395448714b7a492f414141414141414149586b2f475030673553313643656f31505032353254325259704d674156684a6866544541434c63422f73313630302f435255442e706e67",
+        "text": "CRUD criado utilizando o NextJS e o React para exercitar conceitos. Projeto desenvolvido durante o curso de Web Moderno da Cod3r.",
+        "technology": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
+        "link": "https://github.com/JohannArouca/nextCrud"
+    },
+    {
+        "id": "8",
         "name": "TippMed",
         "image": "http://johannarouca-dev.vercel.app/imgs/tippmed.jpeg",
         "text": "Site criado durante meu trabalho de Desenvolvedor Júnior na Logus Soluções.",
@@ -56,7 +64,7 @@
         "link": "https://tippmed.com.br/"
     },
     {
-        "id": "8",
+        "id": "9",
         "name": "Campo minado",
         "image": "https://play-lh.googleusercontent.com/p11kV_h4I96S7LT-c_oZAs278HzGISfib30JvMVFzN7FzUCJfU9JnX8dzC5VMUy1cs8",
         "text": "O antigo Campo Minado do Windows desenvolvido em React Native. Projeto criado no curso React Native: Desenvolva APPs Nativas para Android e iOS da Cod3r.",
@@ -64,7 +72,7 @@
         "link": "https://github.com/JohannArouca/CampoMinado"
     },
     {
-        "id": "9",
+        "id": "10",
         "name": "Calculadora iOS",
         "image": "https://play-lh.googleusercontent.com/L6tKcoaxIKgge_Cyocd7KZu9DvmaQx92J7HAoxm2TtcUw09cY7I4_gXzuZTluQJFEss",
         "text": "Meu primeiro projeto em React Native. Clone da calculadora do iPhone criado durante o curso de React Native da Cod3r, com o intuito de aprender e exercitar conceitos.",
