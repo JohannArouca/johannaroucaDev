@@ -10,9 +10,18 @@ export default function Experiences() {
                 <div class="rb-container">
                     <ul class="rb">
                         <li class="rb-item" ng-repeat="itembx">
+                            <div class="item-title">Desenvolvedor Front-end | Inovação Computação Móvel</div>
+                            <div class="timestamp">
+                                Cargo atual - início em Mar/22
+                            </div>
+                            <div className="item-text">
+                                Desenvolvimento Front-end utilizando Angular, TypeScript, HTML e CSS.
+                            </div>
+                        </li>
+                        <li class="rb-item" ng-repeat="itembx">
                             <div class="item-title">Desenvolvedor Júnior e Suporte | Logus Soluções</div>
                             <div class="timestamp">
-                                Cargo atual - início em Jan/21
+                                Jan/21 - Mar/22
                             </div>
                             <div className="item-text">
                                 Desenvolvimento de softwares utilizando HTML, CSS, JavaScript, Delphi e Wordpress - Suporte aos usuários dos sistemas da empresa.
