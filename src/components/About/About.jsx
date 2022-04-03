@@ -28,9 +28,12 @@ export default function About() {
                 <h3>{'<Conhecimentos técnicos>'}</h3>
                 <div className="technologies">
                     <img alt='React' src='https://logospng.org/download/react/logo-react-256.png' />
+                    <img alt='Angular' src='https://logospng.org/download/angular-js/logo-angular-js-icon-256.png' />
+                    <img alt='TypeScript' src='https://iconape.com/wp-content/png_logo_vector/typescript.png' /> 
+                    <img alt='JavaScript' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png' /> 
                     <img alt='HTML' src='https://logospng.org/download/html-5/logo-html-5-256.png' />
                     <img alt='CSS' src='https://logospng.org/download/css-3/logo-css-3-256.png' />
-                    <img alt='JavaScript' src='https://logospng.org/download/javascript/logo-javascript-256.png' />
+                    <img alt='SASS' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png' />
                     <img alt='Java' src='https://logospng.org/download/java/logo-java-256.png' />
                     <img alt='Delphi' src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Delphi_Language_Logo.png' />
                     <img alt='DataBase' src='https://www.logolynx.com/images/logolynx/c0/c0f84d9509d6690a70ce4c596f740c62.png' />

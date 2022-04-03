@@ -15,7 +15,7 @@ export default function Experiences() {
                                 Cargo atual - início em Mar/22
                             </div>
                             <div className="item-text">
-                                Desenvolvimento Front-end utilizando Angular, TypeScript, HTML e CSS.
+                                Desenvolvimento Front-end utilizando Angular, TypeScript, HTML e SASS.
                             </div>
                         </li>
                         <li class="rb-item" ng-repeat="itembx">
