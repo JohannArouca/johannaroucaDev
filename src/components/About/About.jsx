@@ -35,7 +35,7 @@ export default function About() {
                     <img alt='CSS' src='https://logospng.org/download/css-3/logo-css-3-256.png' />
                     <img alt='SASS' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png' />
                     <img alt='Java' src='https://logospng.org/download/java/logo-java-256.png' />
-                    <img alt='Delphi' src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Delphi_Language_Logo.png' />
+                    <img alt='Delphi' src='https://cdn-icons-png.flaticon.com/512/5968/5968252.png' />
                     <img alt='DataBase' src='https://www.logolynx.com/images/logolynx/c0/c0f84d9509d6690a70ce4c596f740c62.png' />
                     <img alt='Wordpress' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png' />
 
