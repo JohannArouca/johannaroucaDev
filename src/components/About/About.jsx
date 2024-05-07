@@ -2,6 +2,7 @@ import './About.css'
 import React from 'react'
 
 import photo from '../../assets/imgs/photo.png'
+import photo2 from '../../assets/imgs/photo2.jpeg'
 
 export default function About() {
     return (
@@ -10,7 +11,7 @@ export default function About() {
                 <h2>{'<Sobre>'}</h2>
                 <div className='p1'>
                     <div className='photo'>
-                        <img src={photo} alt="johannarouca" />
+                        <img src={photo2} alt="johannarouca" />
                         <div className='btn'>
                             <a href="pdfs/Curriculo-Johann_Arouca.pdf" download="Currículo - Johann Arouca.pdf">
                                 <i className='fa fa-download'></i>

@@ -67,6 +67,11 @@
     padding-left: 10px;
 }
 
+.about .photo img {
+    border-radius: 50%;
+    border: 7px solid var(--blue3);
+}
+
 .technologies img {
     height: 60px;
     padding: 0px 20px;
